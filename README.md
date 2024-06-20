@@ -9,7 +9,7 @@ Esta es una prueba tecnica de un CRUD de usuarios en Javascript node.js
 Clonar el proyecto
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/jose122946/prueba_tecnica_usuarios.git
 ```
 
 ve hasta el directorio del proyecto
