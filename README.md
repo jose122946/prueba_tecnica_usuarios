@@ -29,10 +29,10 @@ Instalar dependencias
   docker compose exec node npm install
 ```
 
-Start the server
+Iniciar el servidor
 
 ```bash
-  npm start 
+  docker compose exec node npm start 
 ```
 
     
