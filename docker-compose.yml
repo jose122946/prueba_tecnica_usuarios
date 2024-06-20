@@ -1,0 +1,19 @@
+version: '3'
+services:
+  node:
+    image: "node"
+    restart: always
+    ports:
+      - 5000:5000 
+    volumes:
+      - ./:/usr/src/app
+    working_dir: '/usr/src/app'
+    command: >
+      tail -f /dev/null
+    #   node app.js
+     
+  mongodb:
+    image: "mongo"
+    ports:
+      - 27017:27017
+    restart: always
